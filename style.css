@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-color-purple{
+    background-color: #B91450;
+}
+
+.btn{
+    background-color: lightgray;
+    color: #B91450;
+    font-size: 20px;
+    justify-content: center;
+    border: 1px solid black;
+    
+
+}
+
+.container-input{
+    width: 80%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}

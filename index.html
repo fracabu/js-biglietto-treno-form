@@ -11,20 +11,39 @@
 <body>
 
     <main>
-        <div class="container text-center bg">
-            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
-            <div class="row">
-                <div class="col-4">
-                    <input type="text">
+        <div class="section bg-color-purple">
+        <div class="container text-center ">
+            <h3 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h3>
+            <div class="container-input">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <span>nome e cognome</span>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <span>km da percorrere</span>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <span>età</span>
+                            <input type="text">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <input type="text">
-                </div>
-                <div class="col-4">
-                    <input type="text">
+            </div>
+            <div class="container">
+                <div>
+                    <button id="genera" class="btn btn-secondary mb-2 mt-2 mx-2 px-2 py-2 fw-bold">Genera</button>
+                    <button id="annulla" class="btn btn-secondary mb-2 mt-2 mx-2 px-2 py-2 fw-bold">Annulla</button>
                 </div>
             </div>
         </div>
+    </div>
     </main>
     
     <script src="script.js"></script>

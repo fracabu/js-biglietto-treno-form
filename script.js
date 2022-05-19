@@ -1,8 +1,10 @@
-// formula calcolo prezzo 
+
 
 const eta = prompt("inserisci la tua età")
 const kmDaPercorrere = prompt("quanti chilometri devi percorrere?")
 
+
+// formula calcolo prezzo 
 const prezzoAlkm = 0.21;
 let prezzoFinale = parseInt(km) * prezzoAlkm;
 
