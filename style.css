@@ -5,12 +5,15 @@
 }
 
 .bg-color-purple{
-    background-color: #B91450;
+    background-color: #B91350;
 }
 
+.etichetta{
+    color: #B91350;
+}
 .btn{
     background-color: lightgray;
-    color: #B91450;
+    color: #B91350;
     font-size: 20px;
     justify-content: center;
     border: 1px solid black;
