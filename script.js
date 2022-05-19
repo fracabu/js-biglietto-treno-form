@@ -15,3 +15,8 @@ if(parseInt(eta) < 18) {
 }
 console.log(prezzoFinale);
 
+const generaElement = document.getElementById('genera')
+const annullaElement = document.getElementById('annulla')
+const nomeElement = document.getElementById('nome')
+const kmElement = document.getElementById('km')
+const etaElement = document.getElementById('eta')
