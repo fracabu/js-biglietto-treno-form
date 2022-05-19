@@ -13,10 +13,21 @@ if(parseInt(eta) < 18) {
 } else if(parseInt(eta) > 65){
     prezzoFinale = prezzoFinale - prezzoFinale * 0.4;
 }
-console.log(prezzoFinale);
 
-const generaElement = document.getElementById('genera')
-const annullaElement = document.getElementById('annulla')
-const nomeElement = document.getElementById('nome')
-const kmElement = document.getElementById('km')
-const etaElement = document.getElementById('eta')
+
+const generaElement = document.getElementById('genera');
+const annullaElement = document.getElementById('annulla');
+const nomeElement = document.getElementById('nome');
+const kmElement = document.getElementById('km');
+const etaElement = document.getElementById('eta');
+
+
+
+//generaElement.innerHTML += generaElement;
+//annullaElement.innerHTML += annullaElement;
+//nomeElement.innerHTML += nomeElement;
+//kmElement.innerHTML +=  kmElement;
+//etaElement.innerHTML += etaElement;
+
+const textWhiteElement = document.querySelector('.text-white');
+console.log(textWhiteElement);
