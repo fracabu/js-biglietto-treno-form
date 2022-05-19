@@ -32,6 +32,12 @@ body{
     margin: auto;
 }
 
+.container-biglietto{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+}
+
 .col{
     display: flex;
     flex-direction: column;

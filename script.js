@@ -4,9 +4,13 @@
 //const kmDaPercorrere = prompt("quanti chilometri devi percorrere?")
 
 
+
+
+
 // formula calcolo prezzo 
 const prezzoAlkm = 0.21;
 let prezzoFinale = parseInt(km) * prezzoAlkm;
+console-log(prezzoFinale)
 
 if(parseInt(eta) < 18) {
     prezzoFinale = prezzoFinale - prezzoFinale * 0.2;
@@ -15,11 +19,23 @@ if(parseInt(eta) < 18) {
 }
 
 
-const generaElement = document.getElementById('genera');
-const annullaElement = document.getElementById('annulla');
-const nomeElement = document.getElementById('nome');
-const kmElement = document.getElementById('km');
-const etaElement = document.getElementById('eta');
+
+
+
+
+
+
+
+
+
+
+
+
+//const generaElement = document.getElementById('genera');
+//const annullaElement = document.getElementById('annulla');
+//const nomeElement = document.getElementById('nome');
+//const kmElement = document.getElementById('km');
+//const etaElement = document.getElementById('eta');
 
 
 
@@ -30,4 +46,3 @@ const etaElement = document.getElementById('eta');
 //etaElement.innerHTML += etaElement;
 
 const textWhiteElement = document.querySelector('.text-white');
-console.log(textWhiteElement);
